@@ -1,0 +1,12 @@
+{
+  "name": "practice2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx tsc ./src/*.ts --outDir dist && node ./dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
